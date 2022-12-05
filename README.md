@@ -66,3 +66,22 @@ in `planning.json`, which contains around 10k records.
 
 For any additional questions on the task please feel free to email
 `sundara.amancharla@aspaara.com`.
+
+## Installation and Set up 
+
+* Create Virtual aenvironment 
+  `virtualenv environment_name`
+* Install required packages
+  `pip install -r requirements`
+* Run the Server
+  `uvicorn config.dev_server:app --reload`
+* Browser link
+  `http://127.0.0.1:8000/docs/`
+
+## Endpoints
+
+* To upload file 
+  `/app/uploadfile/`
+* To get list of record 
+  `/app/get_list_record/`
+
